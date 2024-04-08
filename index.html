@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <a><img src="images/Verloop-New-Logo-2023.svg" alt="aa"> </a>
+            <a href="#platform">Platform</a>
+            <a href="#industry">Industry</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#customers">Customers</a>
+            <a href="#partners">Partners</a>
+            <a href="#resources">Resources</a>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-text">
+                        <div class="text">
+                        <h2>Step Into the World of Next Level Customer Interactions</h2>
+                        <p>Don’t miss the opportunity to witness the future of customer support and sales in action.
+                            Schedule a personalised demo with our evangelists today.</p>
+                        <ul>
+                            <li>Reduce Support load by >80</li>
+                            <li>100+ integrations</li>
+                            <li>Dynamic human-like interaction flow</li>
+                            <li>24/7 Support, even off-hours.</li>
+                        </ul>
+                        </div>
+                        <div class="info-container">
+                            <div class="info-item">
+                                <img src="images/th.jpg" alt="Calendar Icon">
+                                <p>22nd June 2023</p>
+                            </div>
+                            <div class="info-item">
+                                <img src="images/th (1).jpg" alt="Clock Icon">
+                                <p>5:30 PM To 8:30 PM</p>
+                            </div>
+                            <div class="info-item">
+                                <img src="images/th (2).jpg" alt="Location Icon">
+                                <p>India</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/Sirona-demo.png" alt="Image 1">
+                            <img src="images/Finbingo-demo.png" alt="Image 2">
+                            <img src="images/Myglamm-demo.png" alt="Image 3">
+                        </div>
+                        <div class="image-container">
+                            <img src="images/ADIB-demo-1.png" alt="Image 1">
+                            <img src="images/Myglamm-demo.png" alt="Image 2">
+                            <img src="images/Flyin-demo.png" alt="Image 3">
+                        </div>
+                        <div class="image-container">
+                            <img src="images/Momentum-Leader-2023.svg" alt="Image 1">
+                            <img src="images/Leader-2023.svg" alt="Image 2">
+                            <img src="images/Capterra-1.svg" alt="Image 3">
+                            <img src="images/Gartner-1.svg" alt="Image 4">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-container">
+                        <h2>Schedule a free Demo</h2>
+                        <form id="demoForm" action="submit.php" method="POST">
+                            <!-- Form fields here -->
+                            <div class="form-group">
+                                <label for="first_name">First Name *</label>
+                                <input type="text" class="form-control" id="first_name" name="first_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Business Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="job_title">Job Title *</label>
+                                <input type="text" class="form-control" id="job_title" name="job_title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company_name">Company Name *</label>
+                                <input type="text" class="form-control" id="company_name" name="company_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="industry">Industry Name *</label>
+                                <input type="text" class="form-control" id="industry" name="industry" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country Name *</label>
+                                <select class="form-control" id="country" name="country" required>
+                                    <option value="India">India</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Australia">Australia</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="business_type">Select your business type</label>
+                                <select class="form-control" id="business_type" name="business_type">
+                                    <option value="Type 1">Type 1</option>
+                                    <option value="Type 2">Type 2</option>
+                                    <option value="Type 3">Type 3</option>
+                                    <option value="Type 1">Type 4</option>
+                                    <option value="Type 2">Type 5</option>
+                                    <option value="Type 3">Type 6</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="comments">Additional Comments</label>
+                                <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Book a Demo</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h1><span style="color: blueviolet;">Fostering</span> Sucess Together</h1>
+
+    <div class="image-content-container">
+        <div class="image-content-item">
+            <img src="images/PikPng-1.png" alt="Image 1">
+            <div class="content">
+                <p>ChatBanking is a step in the direction of ADIB’s overall vision of ensuring customers can bank
+                    anywhere, anytime, in the language of their choice.</p>
+                <div class="info-container">
+                    <div class="info-items">
+                        <img class="imagess" src="images/Anuj-sharma-2.png" alt="Calendar Icon">
+                        <p>Siraj Pate <br>CTO,IDIB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-content-item">
+            <img src="images/Naykka-testimonial.png" alt="Image 2">
+            <div class="content">
+                <p>More and more customers prefer self-serve over calls to agents. We have been collaborating with
+                    Verloop.io to drive this mission and have come a long way.</p>
+                <div class="info-container">
+                    <div class="info-items">
+                        <img class="imagess" src="images/Siraj.png" alt="Calendar Icon">
+                        <p>Anuj Sharma<br>
+                            Product Manager, Nykaa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-content-item">
+            <img src="images/flyin_1-1.png" alt="Image 3">
+            <div class="content">
+                <p>More and more customers prefer self-serve over calls to agents. We have been collaborating with
+                    Verloop.io to drive this mission and have come a long way.</p>
+                <div class="info-container">
+                    <div class="info-items">
+                        <img class="imagess" src="images/Fady-Jabrah-2.png" alt="Calendar Icon">
+                        <p>Fady Jabrah
+                            <br> Customer Experience Manager, Flyin
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>why<span style="color: blueviolet;">Verloop.io?</span></h1>
+    <div class="image-content-container">
+        <div class="image-content-item">
+            <img src="images/Uncompromising-Enterprise-Grade-Security.png" alt="Image 1">
+            <div class="content">
+                <h3>Uncompromising Enterprise Security
+                </h3>
+                <p>Safeguarding your data with certainty: GDPR, ISO 9000 and ISO 27001:2013 and CIS certified for
+                    unparalleled platform security.
+                </p>
+            </div>
+        </div>
+        <div class="image-content-item">
+            <img src="images/Omnichannel-Conversation-Automation.png" alt="Image 2">
+            <div class="content">
+                <h3>Omnichannel<br>
+                    Support</h3>
+                <p>CSafeguarding your data with certainty: GDPR, ISO 9000 and ISO 27001:2013 and CIS certified for
+                    unparalleled platform security.
+                    .</p>
+            </div>
+        </div>
+        <div class="image-content-item">
+            <img src="images/Generative-AI-Suite.png" alt="Image 3">
+            <div class="content">
+                <h3>Generative <br> AI
+                    Suite</h3>
+                <p>CEmpowering agents with Dynamic Assist Models: Alleviating pressure, improving response and
+                    resolution time for better experience
+                </p>
+            </div>
+        </div>
+    </div>
+    <h4>Embrce the pinnacle of customer Support</h4>
+    <button class="hlo" type="submit" class="btn btn-primary">Book a Demo</button>
+    <br><br>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">PR/News</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms&Conditions</a></li>
+                    <li><a href="#">Help Centers</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Webnars</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Bench Mark Reports</a></li>
+                    <li><a href="#">e Books</a></li>
+                    <li><a href="#">podcost</a></li>
+                    <li><a href="#">Vidoes</a></li>
+                    <li><a href="#">GITEX</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Solution</h3>
+                <ul>
+                    <li><a href="#">Website</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">FaceBook</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Platform</h3>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integration</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Analyist</a></li>
+                    <li><a href="#">Features</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Industry</h3>
+                <ul>
+                    <li><a href="#">E-commerce</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">FoodTech</a></li>
+                    <li><a href="#">Edtech</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-countries">
+            <ul>
+                <li>
+                    <div class="country-info">
+                        <div class="country-name">
+                            <a href="#"><img class="maps" src="images/flag us.jpg" alt="ll"> USA</a>
+                        </div>
+                        <div class="country-description">
+                            <p>The United States of America,<br>
+                                commonly known as the United States or America, <br>
+                                is a country primarily located in North America,<br>
+                                between Canada and Mexico. Wikipedia
+
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="country-info">
+                        <div class="country-name">
+                            <a href="#"><img class="maps" src="images/uae.jpg" alt="ll">UAE</a>
+                        </div>
+                        <div class="country-description">
+                            <p>The United Arab Emirates, or simply the Emirates><br>
+                                is a country in West Asia, in the Middle East.<br>
+                                It is located at the eastern end of the Arabian Peninsula <br>
+                                shares borders with Oman and Saudi Arabia<br>
+                                while also having maritime borders in the Persian Gulf with Qatar and Iran</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="country-info">
+                        <div class="country-name">
+                            <a href="#"><img class="maps" src="images/india.jpg" alt="ll"> India</a>
+                        </div>
+                        <div class="country-description">
+                            <p>India, officially the Republic of India<br>
+                                is a country in South Asia<br>
+                                It is the seventh-largest country by area<br>
+                                the most populous country as of June 2023<br>
+                                and from the time of its independence in 1947<br>
+                                the world's most populous democracy. Wikipedia</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+</body>
+
+</html>
